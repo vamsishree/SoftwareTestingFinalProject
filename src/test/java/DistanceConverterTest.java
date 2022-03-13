@@ -6,7 +6,6 @@ import static org.junit.Assert.*;
 
 public class DistanceConverterTest {
     DistanceConverter obj = new DistanceConverter();
-
     /*Previous Group tests*/
     @Test
     public void kms_to_metres_test(){
@@ -112,11 +111,11 @@ public class DistanceConverterTest {
     }
     @Test
     public void km_cm_m_foot_test() {
-        assertEquals(32000,obj.meters_to_foot((int)(obj.cms_to_metres((int)(obj. kms_to_cms(10))))), 0.0f);
+        assertEquals(32000,obj.meters_to_foot((int)(obj.cms_to_metres(obj. kms_to_cms(10)))), 0.0f);
     }
     @Test
     public void km_cm_m_km_test() {
-        assertEquals(10,obj.meters_to_kms((int)(obj.cms_to_metres((int)(obj. kms_to_cms(10))))), 0.0f);
+        assertEquals(10,obj.meters_to_kms((int)(obj.cms_to_metres(obj. kms_to_cms(10)))), 0.0f);
     }
     @Test
     public void m_km_mile_test() {
