@@ -6,4 +6,3 @@ public class DistanceConverter {
         return meters/1000;
     }
 }
-
