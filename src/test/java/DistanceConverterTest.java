@@ -6,6 +6,7 @@ import static org.junit.Assert.*;
 
 public class DistanceConverterTest {
     DistanceConverter obj = new DistanceConverter();
+
     /*Previous Group tests*/
     @Test
     public void kms_to_metres_test(){
