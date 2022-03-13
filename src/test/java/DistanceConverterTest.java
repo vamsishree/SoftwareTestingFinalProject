@@ -20,5 +20,12 @@ public class DistanceConverterTest {
     public void mms_to_cms_test(){
         assertEquals(10,obj.mms_to_cms(100));
     }
+    @Test
+    public void meters_to_cms_test(){
+        assertEquals(1000,obj.meters_to_cms(10));
+    }
+    @Test
+    public void cms_to_meters(){
+        assertEquals(10,obj.cms_to_meters(1000));
+    }
 }
-//
