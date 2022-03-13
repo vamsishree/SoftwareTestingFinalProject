@@ -8,5 +8,9 @@ public class DistanceConverterTest {
     public void kms_to_meters_test(){
         assertEquals(10000,obj.kms_to_meters(10));
     }
+    @Test
+    public void meters_to_kms_test(){
+        assertEquals(10,obj.meters_to_kms(10000));
+    }
 
 }

@@ -1,8 +1,12 @@
 public class DistanceConverter {
     public int kms_to_meters(int kms){
-        return kms*1000;
+        //return kms*1000;
+        return 0;
     }
-}
+    public int meters_to_kms(int meters){
+        //return meters/1000;
+        return 0;
+    }
 
-//This video is recorded to show that environment is working......
-//You can see that code is commited and environment is working.....
+}
+//pushing the code with wrong functionality and right test cases....
