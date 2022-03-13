@@ -32,8 +32,6 @@ public class DistanceConverterTest {
         assertEquals(10,obj.mms_to_cms(100));
     }
 
-//First Implementing the tests without functionality
-
 
     //Kilometre test
     @Test
