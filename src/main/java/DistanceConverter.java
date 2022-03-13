@@ -6,11 +6,9 @@ public class DistanceConverter {
         return meters/1000;
     }
     public int cms_to_mms(int cms){
-        //return cms*10;
-        return 0;
+        return cms*10;
     }
     public int mms_to_cms(int mms){
-        //return mms/10;
-        return 0;
+        return mms/10;
     }
 }
