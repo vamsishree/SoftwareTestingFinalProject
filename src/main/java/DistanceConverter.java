@@ -5,6 +5,5 @@ public class DistanceConverter {
     public int meters_to_kms(int meters){
         return meters/1000;
     }
-
 }
 
