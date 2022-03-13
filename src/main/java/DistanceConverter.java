@@ -8,7 +8,7 @@ public class DistanceConverter {
     public int cms_to_mms(int cms) {return cms*10;}
     public int mms_to_cms(int mms){ return mms/10; }
 
-
+//Second Test cases with wrong functionality
 /*
     //Kilometre tests
     public double kms_to_miles(int kms) { return kms*0.621;}
