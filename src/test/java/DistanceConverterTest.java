@@ -31,7 +31,7 @@ public class DistanceConverterTest {
     public void mms_to_cms_test(){
         assertEquals(10,obj.mms_to_cms(100));
     }
-
+/**/
 
     //Kilometre test
     @Test
