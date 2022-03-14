@@ -87,7 +87,7 @@ public class DistanceConverterTest {
         assertEquals(3.93,obj.cms_to_inch(10),  0.1f);
     }
 
-    //
+    //Integration tests
     @Test
     public void km_m_cm_km_test() {
         assertEquals(10,obj.cms_to_km(obj.meters_to_cms(obj. kms_to_meters(10))), 0.0f);
