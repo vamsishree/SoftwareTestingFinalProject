@@ -32,7 +32,6 @@ public class DistanceConverterTest {
         assertEquals(10,obj.mms_to_cms(100));
     }
 
-
     //Kilometre test
     @Test
     public void kms_to_miles_test(){
@@ -121,6 +120,5 @@ public class DistanceConverterTest {
     public void m_km_mile_test() {
         assertEquals(0.00621371,obj.kms_to_miles((int)(obj. meters_to_kms(10))), 0.1f);
     }
-
 
 }
